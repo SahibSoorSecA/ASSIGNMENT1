@@ -1,0 +1,91 @@
+body {background-color: black;}
+
+.text1 {font-family: creepster;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 500%;
+color: rgba(255, 0, 0, 0.582);
+}
+.h2 {font-size: 200%;
+    font-family: nosifer;
+font-weight: 999;
+}
+
+h2 {font-size: 330%;}
+
+.navbar {
+    font-size: 300%;
+    font-family: nosifer;
+    display: flex;
+justify-content: space-around;
+background-color: black ;
+}
+
+
+
+.nb1 { color: #005606;}
+.nb2 { color: #005606;}
+.nb3  { color: #005606;}
+.nb4  { color: #005606;}
+
+
+
+
+.h2 {
+    color: red;
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 15px red,
+        0 0 20px red,
+        0 0 25px red,
+        0 0 30px red,
+        0 0 35px red;
+}
+
+.nb1:hover {
+    color: rgb(14, 168, 0);
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 15px rgb(14, 168, 0),
+        0 0 20px rgb(14, 168, 0),
+        0 0 25px rgb(14, 168, 0),
+        0 0 30px rgb(14, 168, 0),
+        0 0 35px rgb(14, 168, 0)
+}
+
+.nb2:hover {
+    color: rgb(14, 168, 0);
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 15px rgb(14, 168, 0),
+        0 0 20px rgb(14, 168, 0),
+        0 0 25px rgb(14, 168, 0),
+        0 0 30px rgb(14, 168, 0),
+        0 0 35px rgb(14, 168, 0)
+}
+.nb3:hover {
+    color: rgb(14, 168, 0);
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 15px rgb(14, 168, 0),
+        0 0 20px rgb(14, 168, 0),
+        0 0 25px rgb(14, 168, 0),
+        0 0 30px rgb(14, 168, 0),
+        0 0 35px rgb(14, 168, 0)
+}
+.nb4:hover {
+    color: rgb(14, 168, 0);
+    text-shadow:
+        0 0 5px #000000,
+        0 0 10px #000000,
+        0 0 15px rgb(14, 168, 0),
+        0 0 20px rgb(14, 168, 0),
+        0 0 25px rgb(14, 168, 0),
+        0 0 30px rgb(14, 168, 0),
+        0 0 35px rgb(14, 168, 0)
+}
