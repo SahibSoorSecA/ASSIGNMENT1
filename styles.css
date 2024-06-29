@@ -17,6 +17,7 @@ font-weight: 999;
 h2 {font-size: 330%;}
 
 .navbar {
+ list-style-type: none;
     padding-top: 310px;
     font-size: 300%;
     font-family: nosifer;
@@ -91,3 +92,12 @@ justify-content: space-around;
         0 0 30px rgb(14, 168, 0),
         0 0 35px rgb(14, 168, 0)
 }
+@keyframes slideon {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+.coverart {animation: slideon 30s infinite;}
