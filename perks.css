@@ -16,6 +16,54 @@ font-weight: 999;
 
 h2 {font-size: 330%;}
 
+
+.accordion 
+
+{font-family: creepster;
+}
+
+.acctitle {padding: 30px;
+    font-family: creepster;
+    cursor: pointer;
+    display: block;
+    }
+.content {display: none;
+    padding: 10px;
+    color: aliceblue;
+    justify-content: center;
+    text-align:center ;
+    word-spacing: normal;
+    font-size: xx-large;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label + .content {
+    display: block;
+}
+.acctitle { 
+    font-family: creepster;
+    font-size: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.acctitle:hover {
+}
+
+.accordion {
+    width: 100%;
+    height: 100%;
+}
+
+p {font-size: 50px;
+    font-weight: bold;
+    font-family: creepster;
+color: #00f238;
+}
+
 .navbar {
     padding-top: 310px;
     font-size: 300%;
